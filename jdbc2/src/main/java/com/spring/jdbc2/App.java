@@ -16,7 +16,7 @@ public class App {
 	
 	Employee c1 = new Employee();
 	c1.setEid(101);
-	c1.setEname("yash");
+	c1.setEname("Jaykishor");
 	c1.setDname("Marketing");
 	int r = cd.insert(c1);
 	System.out.println("Recorded inserted"+r);
@@ -24,7 +24,7 @@ public class App {
 	
 	
 	c1.setEid(101);
-	c1.setEname("yash");
+	c1.setEname("Jaykishor");
 	c1.setDname("dev");
 	int y = cd.update(c1);
 	System.out.println("Recorded updated"+y);
